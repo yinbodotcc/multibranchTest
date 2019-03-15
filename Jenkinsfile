@@ -34,7 +34,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 echo 'Deploying...'
-                echo 'sh \'mvn clean deploy\' -- 此处调用脚本或者ansible、saltstak，部署到远程 '
+                echo 'sh \'mvn clean deploy\' -- call script or ansible,saltstak to deploy to remote machine '
             }
         }
     }
